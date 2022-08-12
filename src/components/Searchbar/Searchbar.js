@@ -14,7 +14,6 @@ class Searchbar extends Component {
     e.preventDefault();
 
     if (this.state.searchName.trim() === '') {
-      console.log('412414244234');
       toast.error('Введите то, что хотите найти');
       return;
     }
